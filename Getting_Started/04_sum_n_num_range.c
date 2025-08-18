@@ -4,7 +4,7 @@
 
 void main(){
     int n1,n2,i;
-    int sum;
+    int sum=0;
     printf("Enter range to calculate sum(starting): ");
     scanf("%d",&n1);
     printf("Enter range to calculate sum(end): ");
@@ -25,7 +25,7 @@ void main(){
 
 void main(){
     int n1,n2,i;
-    int sum;
+    int sum=0;
     printf("Enter range to calculate sum(starting): ");
     scanf("%d",&n1);
     printf("Enter range to calculate sum(end): ");
@@ -35,6 +35,7 @@ void main(){
 
     printf("Sum of n natural numbers in given Range is %d",sum);
 }
+
 
 
 
