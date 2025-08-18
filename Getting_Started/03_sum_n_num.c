@@ -4,7 +4,7 @@
 
 void main(){
     int n;
-    int sum;
+    int sum=0;
     printf("Enter a number: ");
     scanf("%d",&n);
 
@@ -21,7 +21,7 @@ void main(){
 
 void main(){
     int n,i=1;
-    int sum;
+    int sum=0;
     printf("Enter a number: ");
     scanf("%d",&n);
 
@@ -40,11 +40,12 @@ void main(){
 
 void main(){
     int n;
-    int sum;
+    int sum=0;
     printf("Enter a number: ");
     scanf("%d",&n);
     sum=(n*(n+1))/2;
     printf("Sum of n Natural Numbers is %d",sum);
 }
+
 
 
