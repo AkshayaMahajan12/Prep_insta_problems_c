@@ -31,10 +31,11 @@ void main(){
     printf("Enter range to calculate sum(end): ");
     scanf("%d",&n2);
 
-    sum=(((n2)*(n2+1))/2)-(((n1)*(n1+1))/2);
+    sum=(((n2)*(n2+1))/2)-(((n1)*(n1-1))/2);
 
     printf("Sum of n natural numbers in given Range is %d",sum);
 }
+
 
 
 
